@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+    <html lang="fr">
+        <head>
+            <meta charset="UTF-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <link rel="stylesheet" href="./css/style.css" />
+                    <link rel="preconnect" href="https://fonts.googleapis.com">
+                    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+                <title>Zoo arcadia</title>
+        </head>
+<!-- START HEADER -->
+    <body class="image-giraffe flux">
+        <header class="header flux">
+                <img class="logo" src="./images/logo-zoo.png" alt="Logo du zoo" />
+                
+                    <nav>     
+                        <ul class="nav-link">  
+                            <li class="explore-link"> 
+                                <a href="./quand-on-arrive.html" target="_blank">
+                                L'arrivée
+                                </a>
+                            </li>            
+                            <li class="explore-link">
+                                <a href="./les-terriens.html" target="_blank">
+                                Les Terriens
+                                </a>
+                            <li class="explore-link">
+                                <a href="./les-aquatiques.html" target="_blank">
+                                Les Aquatiques
+                                </a>
+                            </li>            
+                            <li class="explore-link"> 
+                                <a  
+                                href="./le-coin-veto.html" target="_blank">
+                                Le coin veto
+                                </a>
+                            </li>                                                                
+                        </ul>  
+                    </nav>
+                    <button class="ticket-button">
+                        <a 
+                            href="./tickets.html" target="_blank">
+                            Tickets
+                        </a> 
+                    </button>                                          
+        </header>
+    <!-- START HERO -->
+        <main class="hero-container flux">
+            <banner class="infos-contact">
+                <label class="barre" for="search">Rechercher dans le site :  
+                    <input id="search"
+                    class="barre-recherche flux"
+                    type="text"
+                    name="Rechercher"
+                    id="search"
+                    size="11"
+                    placeholder="Recherchez"
+                    /></label>    
+                    <p class="horaires">Du lundi au vendredi - de 9h à 20h</p>
+                    <p class="contact">Contact: +33 561 25 57 22</p>
+            </banner>
+                <div class="visitez-nous">
+                    <h1>Le Refuge</h1> 
+                    <h2>visitez-nous !</h2>
+                </div>
+            <section class=" hero">
+                <!-- <div class="hero">      -->
+                    <nav class="arriver">   
+                        <a href="./quand-on-arrive.html" target="_blank">                                                                                       
+                            <img 
+                            class="file"
+                            src="./images/file-attente-parc.jpg" 
+                            alt="file d'attente"
+                            />
+                        </a> 
+                    </nav>
+                    <nav class="terre">    
+                        <a href="./les-terriens.html" target="_blank">                    
+                            <img
+                            class="elephant" 
+                            src="./images/elephants.jpg" 
+                            alt="éléphants" /> 
+                        </a>                        
+                    </nav>
+                    <nav class="eau">  
+                        <a href="./les-aquatiques.html" target="_blank">                        
+                            <img 
+                            class="tortue" 
+                            src="./images/tortue.jpg"  
+                            alt="tortue dans l'eau" />
+                        </a> 
+                    </nav>
+                <!-- </div> -->
+            </section>    
+            <div class="separateur">
+                <div class="separateur-color"></div>
+            </div>                  
+            <div 
+                class="right">                                                            
+                <div 
+                class="hov-test">
+                </div> 
+            </div>       
+            <section class="avis">
+                <h4><b>Votre avis nous intérresse : </b></h4>
+                <fieldset>
+                    <legend>
+                        <i><b>Comment avez-vous trouvé notre site?</b></i>
+                    </legend>
+                    <input 
+                        class="input-avis" 
+                        type="radio" 
+                        id="satisfait" 
+                        name="satisfaction" 
+                        value="satisfait" />
+                    <label class="input-avis" 
+                        for="satisfait">Satisfait
+                    </label>
+                    <br />
+                    <input 
+                        class="input-avis" 
+                        type="radio" 
+                        id="neutre" 
+                        name="satisfaction" 
+                        value="neutre" />
+                    <label class="input-avis" 
+                        for="neutre">Neutre
+                    </label>
+                    <br />
+                    <input 
+                        class="input-avis" 
+                        type="radio" 
+                        id="insatisfait" 
+                        name="satisfaction" 
+                        value="insatisfait" />
+                    <label 
+                        class="input-avis" 
+                        for="insatisfait">Insatisfait
+                    </label>
+                    <br />   
+                </fieldset>  
+                <h4>
+                    Laissez nous un commentaire ! On peut toujours faire mieux ! 
+                </h4>
+                <label 
+                    for="avis-visiteurs">
+                </label>
+                <textarea 
+                    name="avis-visiteurs" 
+                    id="avis-visiteurs" 
+                    cols="60" rows="5" 
+                    placeholder="">
+                </textarea>
+                <br>
+                <button type="submit">Envoyez</button>     
+            </section>
+        </main>
+        <br>
+        <hr>
+        <br>
+    </body>
+    <footer class="flux">
+        <p>2022 Zoo Arcadia. Tous droits réservés.</p>      
+        
+    </footer>
+</html>
